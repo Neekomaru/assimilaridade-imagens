@@ -8,8 +8,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		CompararImagens ci = new CompararImagens();
-		String caminho = "\\\\batutas\\usuario$\\4381\\Documents\\My Pictures\\img\\Nova pasta (2)";
-		//String caminho2 = "\\\\batutas\\usuario$\\4381\\Documents\\My Pictures\\img\\Nova pasta";
+		String caminho = "Sua pasta com as imagens";
 		ci.compararImg(caminho);
 
 	}
