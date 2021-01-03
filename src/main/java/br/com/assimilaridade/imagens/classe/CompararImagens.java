@@ -26,10 +26,12 @@ public class CompararImagens {
 				if(!nomeImg1.contentEquals(nomeImg2)) {
 					System.out.println("Comparando Imagens..."+ "(" + nomeImg1 +")" +" - "+ "(" + nomeImg2 + ")");
 					if(compareImage(fileEntry,fileEntry2)) {
-						System.out.println("Resultado: As imagens s„o iguais.");
-						fileEntry2.delete();
+						System.out.println("Resultado: As imagens s√£o iguais.");
+						
+						//Ira deletar as imagnes que forem iguais.
+						//fileEntry2.delete();
 					}else {
-						System.out.println("Resultado: As imagens s„o diferentes.");
+						System.out.println("Resultado: As imagens s√£o diferentes.");
 					}
 				}
 				
